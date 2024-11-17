@@ -11,7 +11,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![Top of desktop](image.png)
+![Top of desktop](./design/image.png)
 ![Bottom of desktop](./design/image-1.png)
 ![iphone view](./design/image-2.png)
 ![ipad portrait](./design/image-3.png)
