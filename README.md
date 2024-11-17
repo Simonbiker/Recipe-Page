@@ -19,8 +19,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Simonbiker/Recipe-Page)
-- Live Site URL: [Add live site URL here](https://simonbiker.github.io/Recipe-Page/)
+- Solution URL: [https://github.com/Simonbiker/Recipe-Page]
+- Live Site URL: [https://simonbiker.github.io/Recipe-Page/]
 
 
 ### Built with
