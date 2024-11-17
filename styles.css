@@ -15,9 +15,6 @@ body {
     --brown: hsl(14, 45%, 36%);
     --white: hsl(0, 0%, 100%);
 
-    background-color: var(--stone-100);
-    margin-top: 128px;
-    margin-bottom: 128px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,27 +26,17 @@ main {
     background-color: var(--white);
     border-radius: 10px;
     max-width: 736px;
-    max-height: 1700px;
     margin: 0px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-div {
-    padding: 40px 40px 0 40px;
-}
 
 .header-image {
-    display: block;
     max-width: 100%;
-    border-radius: 10px;
 }
 
-.recipe{
-    padding: 0 40px 40px 40px;
-}
 
 h1 {
     font-size: 40px;
@@ -151,4 +138,36 @@ th {
 }
 .attribution a {
     color: hsl(214, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  main{
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        margin-top: 128px;
+        margin-bottom: 128px;
+        background-color: var(--stone-100);
+    }
+
+    main {
+        max-height: 1700px;
+    }
+
+    .img-div {
+        padding: 40px 40px 0 40px;
+    }
+
+    .header-image{
+        display: block;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .recipe{
+        padding: 0 40px 40px 40px;
+    }
 }
