@@ -12,10 +12,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 ![Top of desktop](image.png)
-![Bottom of desktop](image-1.png)
-![iphone view](image-2.png)
-![ipad portrait](image-3.png)
-![ipad landscape](image-4.png)
+![Bottom of desktop](./design/image-1.png)
+![iphone view](./design/image-2.png)
+![ipad portrait](./design/image-3.png)
+![ipad landscape](./design/image-4.png)
 
 ### Links
 
