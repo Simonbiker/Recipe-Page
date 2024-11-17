@@ -7,7 +7,7 @@ body {
     
     /* colors */
     --rose-50: hsl(330, 100%, 98%);
-    --rose--800: hsl(372, 51%, 32%);
+    --rose-800: hsl(372, 51%, 32%);
     --stone-900: hsl(24, 5%, 18%);
     --stone-600: hsl(30, 10%, 34%);
     --stone-150: hsl(30, 18%, 87%);
@@ -21,12 +21,74 @@ body {
 main {
     background-color: var(--white);
     border-radius: 10px;
+    max-width: 736px;
+    max-height: 1700px;
+    margin: 0px;
 }
 
-.image-div{
-    padding: 40px, 40px, 0, 40px;
+.img-div {
+    padding: 40px 40px 0 40px;
+}
+
+.header-image {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .recipe{
     padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-family: var(--young-serif);
+}
+
+.prest4 {
+    font-size: 16px;
+    font-family: var(--outfit);
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.prep-time {
+    background-color: var(--rose-50);
+    padding: 24px;
+    border-radius: 1.5rem;
+}
+
+.prep-time-heading{
+    color: var(--rose-800);
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+ul {
+    margin: 0px;
+}
+
+.text-bold{
+    font-weight: 900;
+}
+
+.points{
+    padding: 0 0 10px 16px;
+}
+
+.last-point {
+    padding: 0 0 0 16px
+}
+
+.ingredients-heading {
+    color: var(--brown);
+    font-size: 28px;
+    font-family: var(--young-serif);
+    line-height: 100%;
+    letter-spacing: 0px;
 }
